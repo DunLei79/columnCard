@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    height: 100vh;
+    display: flex;
+    text-align: left
+}
+.cardOne{   
+    padding-left: 2em;
+    padding-top: 2em;
+    height: 24em;
+    width: 17em;
+    background-color: hsl(31, 77%, 52%);
+    border-top-right-radius :.5em;
+    border-top-left-radius: .5em;
+}
+
+.cardTwo{
+    padding-left: 2em;
+    padding-top: 2em;
+    height: 24em;
+    width: 17em;
+    background-color:  hsl(184, 100%, 22%);
+}
+
+.cardThree{
+    padding-left: 2em;
+    padding-top: 2em;
+    height: 24em;
+    width: 17em;
+    background-color: hsl(179, 100%, 13%);
+}
+.btn{
+    background-color: #fff;
+    border-radius: 2em;
+    border: hidden;
+    padding: 1em;
+    width: 9em;
+}
